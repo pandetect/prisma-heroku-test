@@ -4,7 +4,8 @@
   "description": "",
   "main": "./dist/Main.js",
   "scripts": {
-    "start": "npx tsc && node ."
+    "dev": "npx tsc && node .",
+    "start": "npm i && npx tsc && node ."
   },
   "keywords": [],
   "author": "",
